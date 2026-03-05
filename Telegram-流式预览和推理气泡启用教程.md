@@ -205,6 +205,18 @@ openclaw config set agents.defaults.reasoning.streaming true
 
 ---
 
+## 📺 视频演示
+
+👉 **观看视频教程**：[Telegram 流式预览功能演示](https://www.youtube.com/watch?v=IjiYkcrkPNs)
+
+视频内容包括：
+- 流式预览的实际效果展示
+- 推理气泡的启用与使用
+- 私聊和群组环境下的差异
+- 常见问题说明
+
+---
+
 ## 🔗 相关文档
 
 - [官方文档 - Telegram 流式预览](https://docs.openclaw.ai/channels/telegram#live-stream-preview-native-drafts-message-edits)
@@ -213,6 +225,7 @@ openclaw config set agents.defaults.reasoning.streaming true
 
 ---
 
-*教程创建日期*：2025-06-17  
+*教程创建日期*：2025-06-17
+*更新日期*：2025-06-17 (添加视频链接)  
 *基于 OpenClaw 版本*：0.1.7+  
 *适用 Telegram Bot API*：9.5+
