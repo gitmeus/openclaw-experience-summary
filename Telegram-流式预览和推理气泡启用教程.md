@@ -207,7 +207,9 @@ openclaw config set agents.defaults.reasoning.streaming true
 
 ## 📺 视频演示
 
-👉 **观看视频教程**：[Telegram 流式预览功能演示](https://www.youtube.com/watch?v=IjiYkcrkPNs)
+👉 **观看视频教程**：
+
+[![Telegram 流式预览功能演示](https://img.youtube.com/vi/IjiYkcrkPNs/0.jpg)](https://www.youtube.com/watch?v=IjiYkcrkPNs)
 
 视频内容包括：
 - 流式预览的实际效果展示

@@ -79,7 +79,9 @@ Discourse 官方提供**免费托管**（有限资源），适合：
 ## 🎬 视频教程
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/_Lw5kHDoyDM/0.jpg)](https://www.youtube.com/watch?v=_Lw5kHDoyDM)
 
-👉 **观看完整演示**：https://www.youtube.com/watch?v=_Lw5kHDoyDM
+👉 **观看完整演示**：
+
+[![Discourse 免费搭建论坛演示](https://img.youtube.com/vi/_Lw5kHDoyDM/0.jpg)](https://www.youtube.com/watch?v=_Lw5kHDoyDM)
 
 视频内容：
 - 从零开始的创建流程
@@ -243,7 +245,8 @@ Discourse 官方提供**免费托管**（有限资源），适合：
 - [Discourse 官方托管服务](https://www.discourse.org/)
 - [Discourse Meta 社区](https://meta.discourse.org)
 - [Discourse 官方文档](https://docs.discourse.org/)
-- [视频教程：免费搭建 Discourse 论坛](https://www.youtube.com/watch?v=_Lw5kHDoyDM)
+- [视频教程：免费搭建 Discourse 论坛](https://www.youtube.com/watch?v=_Lw5kHDoyDM)  
+  *(缩略图嵌入见教程"🎬 视频教程"章节)*
 
 ---
 

@@ -116,7 +116,9 @@ Aspose 生成器会提供：
 
 ## 🎬 视频教程
 
-👉 **观看演示视频**：https://www.youtube.com/watch?v=peUqvayzIDw
+👉 **观看演示视频**：
+
+[![Gmail 临时邮箱生成器演示](https://img.youtube.com/vi/peUqvayzIDw/0.jpg)](https://www.youtube.com/watch?v=peUqvayzIDw)
 
 视频将展示：
 - Aspose Gmail 生成器的实际使用流程
