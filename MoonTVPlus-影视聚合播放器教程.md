@@ -145,13 +145,39 @@ services:
 
 ---
 
-### 方式二：Vercel 一键部署
+### 方式二：Vercel 一键部署（推荐使用 Upstash 存储）
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/mtvpls/MoonTVPlus)
 
 点击上方按钮，选择 Fork 到您的账户，配置环境变量即可自动部署。
 
 **注意**：Vercel 部署不支持观影室（WebSocket）功能。
+
+#### 配置 Upstash 存储（推荐）
+
+1. **访问 Upstash 控制台**：https://console.upstash.com/redis
+   - 可以使用 **GitHub 账号自动登录**（一键授权）
+
+2. **创建 Redis 数据库**：
+   - 点击 "Create Database"
+   - 选择区域（建议选择离您用户最近的区域）
+   - 免费套餐足够个人使用
+
+3. **获取连接信息**：
+   - 在数据库详情页面，找到 **"Connection"** 或 **"Connect"** 选项卡
+   - 复制 **"HTTPS Endpoint"** → 这就是 `UPSTASH_URL`
+   - 复制 **"TOKEN"** → 这就是 `UPSTASH_TOKEN`
+
+4. **在 Vercel 配置环境变量**：
+   - `USERNAME` = 您选择的管理员用户名（如 `admin`）
+   - `PASSWORD` = 您设置的强密码
+   - `NEXT_PUBLIC_STORAGE_TYPE` = `upstash`
+   - `UPSTASH_URL` = 从 Upstash 复制的 HTTPS Endpoint
+   - `UPSTASH_TOKEN` = 从 Upstash 复制的 TOKEN
+
+5. **完成部署**：
+   - 配置完成后，Vercel 自动部署
+   - 访问生成的 URL（如 `https://your-project.vercel.app`）
 
 ---
 
